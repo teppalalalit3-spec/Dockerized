@@ -1,0 +1,99 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex 7091d1b..0000000[m
+[1m--- a/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,93 +0,0 @@[m
+[31m-# Dockerized[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-## Getting started[m
+[31m-[m
+[31m-To make it easy for you to get started with GitLab, here's a list of recommended next steps.[m
+[31m-[m
+[31m-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)![m
+[31m-[m
+[31m-## Add your files[m
+[31m-[m
+[31m-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files[m
+[31m-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:[m
+[31m-[m
+[31m-```[m
+[31m-cd existing_repo[m
+[31m-git remote add origin https://gitlab.com/teppalalalit3-spec/dockerized.git[m
+[31m-git branch -M main[m
+[31m-git push -uf origin main[m
+[31m-```[m
+[31m-[m
+[31m-## Integrate with your tools[m
+[31m-[m
+[31m-* [Set up project integrations](https://gitlab.com/teppalalalit3-spec/dockerized/-/settings/integrations)[m
+[31m-[m
+[31m-## Collaborate with your team[m
+[31m-[m
+[31m-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)[m
+[31m-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)[m
+[31m-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)[m
+[31m-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)[m
+[31m-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)[m
+[31m-[m
+[31m-## Test and Deploy[m
+[31m-[m
+[31m-Use the built-in continuous integration in GitLab.[m
+[31m-[m
+[31m-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)[m
+[31m-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)[m
+[31m-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)[m
+[31m-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)[m
+[31m-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)[m
+[31m-[m
+[31m-***[m
+[31m-[m
+[31m-# Editing this README[m
+[31m-[m
+[31m-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.[m
+[31m-[m
+[31m-## Suggestions for a good README[m
+[31m-[m
+[31m-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.[m
+[31m-[m
+[31m-## Name[m
+[31m-Choose a self-explaining name for your project.[m
+[31m-[m
+[31m-## Description[m
+[31m-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.[m
+[31m-[m
+[31m-## Badges[m
+[31m-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.[m
+[31m-[m
+[31m-## Visuals[m
+[31m-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.[m
+[31m-[m
+[31m-## Installation[m
+[31m-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.[m
+[31m-[m
+[31m-## Usage[m
+[31m-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.[m
+[31m-[m
+[31m-## Support[m
+[31m-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.[m
+[31m-[m
+[31m-## Roadmap[m
+[31m-If you have ideas for releases in the future, it is a good idea to list them in the README.[m
+[31m-[m
+[31m-## Contributing[m
+[31m-State if you are open to contributions and what your requirements are for accepting them.[m
+[31m-[m
+[31m-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.[m
+[31m-[m
+[31m-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.[m
+[31m-[m
+[31m-## Authors and acknowledgment[m
+[31m-Show your appreciation to those who have contributed to the project.[m
+[31m-[m
+[31m-## License[m
+[31m-For open source projects, say how it is licensed.[m
+[31m-[m
+[31m-## Project status[m
+[31m-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.[m
