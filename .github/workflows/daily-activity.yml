@@ -1,0 +1,24 @@
+name: Daily Contribution Generator
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Triggers automatically every night at midnight UTC
+  workflow_dispatch:   # Allows you to manually trigger it with a button click
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Make a local file edit
+      run: |
+        echo "Last automated check: $(date)" > bot-log.txt
+        
+    - name: Commit and push changes back to main branch
+      run: |
+        git config --local user.email "your-github-email@example.com"
+        git config --local user.name "teppalalalit3-spec"
+        git add bot-log.txt
+        git commit -m "Automated daily project health check [skip ci]"
+        git push
